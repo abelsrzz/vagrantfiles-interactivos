@@ -13,3 +13,4 @@ En este caso, en conjunto con Vagrant, podemos crear un script como este, que pu
 <h3>Script:</h3>
 <a href="https://github.com/abelsrzz/vagrantfiles-interactivos/blob/main/autogenVagrantfile.sh">Script</a>
 
+<h3 style="color:red;">Requirements</h3>
