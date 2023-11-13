@@ -11,7 +11,7 @@ En este caso, en conjunto con Vagrant, podemos crear un script como este, que pu
 </ul>
 
 <h3>Script:</h3>
-```
+`````
 #!/bin/bash
 box=$1
 ram=$2
@@ -21,9 +21,9 @@ provisionFlag=0
 
 if [ -f "Vagrantfile" ]; then
     echo "Ya existe un Vagrantfile en esta ruta"
-    read -p "¿Quieres borrarlo y crear uno nuevo?[s/N]: " rm
+    read -p "¿Quieres borrarlo y crear uno nuevo?[s/N]: " borrar
 
-    case "$rm" in
+    case "$borrar" in
         s|S|y|Y)
             rm -rf Vagrantfile
             echo "Borrando Vagrantfile..."
@@ -203,4 +203,4 @@ n|N)
 ;;
 esac
 
-```
+`````
