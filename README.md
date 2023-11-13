@@ -6,7 +6,7 @@ En este caso, en conjunto con Vagrant, podemos crear un script como este, que pu
 <ul>
   <li>Dos boxes por defecto para máquinas Debian o Ubuntu.</li>
   <li>Diversas opciones a configurar en el Vagrantfile.</li>
-  <li>Limitaiones a la alta y a la baja de los recursos hardware de la máquina virtual</li>
+  <li>Limitaciones a la alta y a la baja de los recursos hardware de la máquina virtual</li>
   <li>Confirmación de eliminación de Vagrantfile antiguo y de inicio de la máquina.</li>
 </ul>
 
