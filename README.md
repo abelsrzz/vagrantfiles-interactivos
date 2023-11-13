@@ -11,5 +11,5 @@ En este caso, en conjunto con Vagrant, podemos crear un script como este, que pu
 </ul>
 
 <h3>Script:</h3>
-autogenVagrantfile.sh
+<a href="https://github.com/abelsrzz/vagrantfiles-interactivos/blob/main/autogenVagrantfile.sh">Script</a>
 
