@@ -11,7 +11,7 @@ En este caso, en conjunto con Vagrant, podemos crear un script como este, que pu
 </ul>
 
 <h3>Script:</h3>
-<a href="https://github.com/abelsrzz/vagrantfiles-interactivos/blob/main/autogenVagrantfile.sh">Script</a>
+<a href="https://github.com/abelsrzz/vagrantfiles-interactivos/blob/main/autogenVagrantfile.sh">Ir al script</a>
 
 <h3>Requirements</h3>
 <ul>
