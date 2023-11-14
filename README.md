@@ -15,7 +15,7 @@ En este caso, en conjunto con Vagrant, podemos crear un script como este, que pu
 ./autogenVagrantfiles.sh $box $ram $cpus
 ```
 
-<p>Siendo <code>$box</code> la Box del <a href="https://app.vagrantup.com/boxes/search">VagrantCloud</a>, $ram la memoria RAM de la máquina (Se establecerán 2GB por defecto.) y $cpus los núcleos que tendrá el procesador de la máquina (Se establecerán 2 núcleos por defecto.)</p>
+<p>Siendo $box la Box del <a href="https://app.vagrantup.com/boxes/search">VagrantCloud</a>, $ram la memoria RAM de la máquina (Se establecerán 2GB por defecto.) y $cpus los núcleos que tendrá el procesador de la máquina (Se establecerán 2 núcleos por defecto.)</p>
 
 <h3>Script:</h3>
 <a href="https://github.com/abelsrzz/vagrantfiles-interactivos/blob/main/autogenVagrantfile.sh">Ir al script</a>
