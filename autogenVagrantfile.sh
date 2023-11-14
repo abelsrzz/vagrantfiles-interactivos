@@ -128,7 +128,17 @@ then
 elif [ 512 -gt "$ram" ] || [ 4096 -lt "$ram" ];
 then
     echo "La memoria RAM debe estar entre 512MB y 4096MB para el correcto funcionamiento de la máquina."
-    exit 0
+    read -p "¿Quieres forzar que la RAM sea $ram? [y/N] " opcionRam
+
+    case "$opcionRam" in
+    y|Y|s|S)
+        echo "RAM establecida en $ram MB."
+    ;;
+    *)
+        echo "Estableciendo la ram por defecto"
+        ram=2048
+    ;;
+    esac
 fi
 
 if [ -z "$cpus" ];
@@ -136,8 +146,17 @@ then
     cpus="2"
 elif [ 1 -gt "$cpus" ] || [ 4 -lt "$cpus" ];
 then
-    echo "Los cpus deben ser entre 1 y 4 para el correcto funcionamiento de la máquina."
-    exit 0
+    read -p "¿Quieres forzar que la RAM sea $ram? [y/N] " opcionCpus
+
+    case "$opcionCpus" in
+    y|Y|s|S)
+        echo "Cpus establecidos en $cpus."
+    ;;
+    *)
+        echo "Estableciendo los por defecto"
+        cpus=2
+    ;;
+    esac
 fi
 
 case $box in
