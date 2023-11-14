@@ -9,6 +9,9 @@ En este caso, en conjunto con Vagrant, podemos crear un script como este, que pu
   <li>Limitaciones a la alta y a la baja de los recursos hardware de la máquina virtual</li>
   <li>Confirmación de eliminación de Vagrantfile antiguo y de inicio de la máquina.</li>
 </ul>
+<h2>Forma de uso</h2>
+```./autogenVagrantfiles.sh $box $ram $cpus ```
+<p>Siendo $box la Box del <a href="https://app.vagrantup.com/boxes/search">VagrantCloud</a>, $ram la memoria RAM de la máquina (Se establecerán 2GB por defecto.) y $cpus los núcleos que tendrá el procesador de la máquina (Se establecerán 2 núcleos por defecto.)</p>
 
 <h3>Script:</h3>
 <a href="https://github.com/abelsrzz/vagrantfiles-interactivos/blob/main/autogenVagrantfile.sh">Ir al script</a>
